@@ -41,4 +41,4 @@ $ npm start
 ```
 
 On server side you need to paste your connection string to mongoDB in .env file.
-On client side you need to change every endpoint url in files to your which is forwading to your localhost 5000 (I was using ngrok).
+On client side you need to change every endpoint url in files to yours own which will forward it to your localhost 5000 (I was using ngrok).
