@@ -18,7 +18,6 @@ Server
 * Express 4.16.2
 * Mongoose 5.6.7
 * Joi 15.1.0
-* Moongoose 5.6.7
 
 ## How to run?
 
