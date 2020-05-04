@@ -1,0 +1,35 @@
+{
+  "name": "reactexpress",
+  "version": "1.0.0",
+  "description": "Starter kit for creating React/Redux and Express apps",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Brad Traversy & Gregory Assasie",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "@hapi/joi": "^15.1.0",
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^3.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.6.7",
+    "nodemon": "^1.14.7",
+    "passport": "^0.4.0",
+    "passport-facebook": "^3.0.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.1"
+  }
+}
